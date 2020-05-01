@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8309545-8372-40ca-a016-503476deab51" name="Default Changelist" comment="added project to github ytgff" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YDezGvjjfS7ZejtStjRuMUHVgr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources\static" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\java\com\example\mailwithrsssender\autolog" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources\templates" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources\static\css" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources\static" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\java\com\example\mailwithrsssender\autolog" />
+      <recent name="C:\Users\Aneta\Desktop\mailwithrsssender\src\main\resources\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MailwithrsssenderApplication">
+    <configuration name="RssReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mailwithrsssender.rssreader.RssReader" />
+      <module name="mailwithrsssender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mailwithrsssender.rssreader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sendgrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mailwithrsssender.autolog.sendgrid" />
+      <module name="mailwithrsssender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mailwithrsssender.autolog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailwithrsssenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mailwithrsssender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mailwithrsssender.MailwithrsssenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.sendgrid" />
+        <item itemvalue="Application.RssReader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Aneta\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8309545-8372-40ca-a016-503476deab51" name="Default Changelist" comment="" />
+      <created>1582481852663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582481852663</updated>
+      <workItem from="1582481855606" duration="4537000" />
+      <workItem from="1582650264978" duration="8083000" />
+      <workItem from="1582906691119" duration="16757000" />
+      <workItem from="1582980065285" duration="17453000" />
+      <workItem from="1583074067595" duration="17671000" />
+      <workItem from="1583137394798" duration="15753000" />
+      <workItem from="1583173413372" duration="1205000" />
+      <workItem from="1583339895342" duration="9689000" />
+      <workItem from="1583565108346" duration="681000" />
+      <workItem from="1585849889513" duration="4490000" />
+      <workItem from="1585936085840" duration="12100000" />
+      <workItem from="1585988305499" duration="3021000" />
+      <workItem from="1586371767335" duration="599000" />
+      <workItem from="1586710354883" duration="316000" />
+      <workItem from="1586710817634" duration="2297000" />
+      <workItem from="1586766715524" duration="598000" />
+      <workItem from="1586772117120" duration="598000" />
+      <workItem from="1586878197783" duration="1224000" />
+      <workItem from="1586968472401" duration="1197000" />
+      <workItem from="1587059751294" duration="599000" />
+      <workItem from="1587292087996" duration="599000" />
+      <workItem from="1587300851571" duration="46000" />
+      <workItem from="1587300922100" duration="611000" />
+      <workItem from="1587667890248" duration="676000" />
+      <workItem from="1587669647110" duration="66000" />
+      <workItem from="1587755772389" duration="5699000" />
+      <workItem from="1587797768029" duration="17050000" />
+      <workItem from="1587906594408" duration="9780000" />
+      <workItem from="1587916471821" duration="9443000" />
+      <workItem from="1588008712597" duration="7664000" />
+      <workItem from="1588096842562" duration="6302000" />
+      <workItem from="1588179322605" duration="8872000" />
+      <workItem from="1588359630880" duration="121000" />
+      <workItem from="1588359883796" duration="682000" />
+    </task>
+    <task id="LOCAL-00001" summary="added project to github">
+      <created>1583565248293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583565248293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added project to github">
+      <created>1583565311651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583565311651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added project to github">
+      <created>1583565464655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583565464655</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added project to github">
+      <created>1587668200536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587668200536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="added project to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project to github" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="383" key="#Notifications" timestamp="1587668264357">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="532" y="383" key="#Notifications/0.0.2560.1040@0.0.2560.1040" timestamp="1587668264357" />
+    <state x="459" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1588181136118">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="459" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588181136118" />
+    <state x="384" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588102074129">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="384" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588102074129" />
+    <state x="206" y="88" key="CommitChangelistDialog2" timestamp="1587668346650">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="206" y="88" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1587668346650" />
+    <state x="420" y="275" key="FileChooserDialogImpl" timestamp="1587844470247">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="420" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1587844470247" />
+    <state width="1219" height="406" key="GridCell.Tab.0.bottom" timestamp="1588187770370">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770370" />
+    <state width="1219" height="406" key="GridCell.Tab.0.center" timestamp="1588187770369">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770369" />
+    <state width="1219" height="406" key="GridCell.Tab.0.left" timestamp="1588187770369">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770369" />
+    <state width="1219" height="406" key="GridCell.Tab.0.right" timestamp="1588187770369">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770369" />
+    <state width="1219" height="406" key="GridCell.Tab.1.bottom" timestamp="1588187770370">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770370" />
+    <state width="1219" height="406" key="GridCell.Tab.1.center" timestamp="1588187770370">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770370" />
+    <state width="1219" height="406" key="GridCell.Tab.1.left" timestamp="1588187770370">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770370" />
+    <state width="1219" height="406" key="GridCell.Tab.1.right" timestamp="1588187770370">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1219" height="406" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588187770370" />
+    <state x="148" y="165" key="SettingsEditor" timestamp="1588098718551">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="148" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1588098718551" />
+    <state x="239" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587668206167">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="239" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1587668206167" />
+    <state x="27" y="50" width="840" height="961" key="dock-window-1" timestamp="1587908651722">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="27" y="50" width="840" height="961" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1587908651722" />
+    <state x="384" y="280" key="extract.method.dialog" timestamp="1588187803349">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="384" y="280" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588187803349" />
+    <state x="441" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587668332070">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="441" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587668332070" />
+    <state x="22" y="181" key="new project wizard" timestamp="1587913900159">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="22" y="181" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587913900159" />
+    <state x="360" y="287" key="refactoring.ChangeSignatureDialog" timestamp="1587800699379">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="360" y="287" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587800699379" />
+    <state x="296" y="242" key="run.anything.popup" timestamp="1587909071708">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="296" y="242" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1587909071708" />
+  </component>
+</project>

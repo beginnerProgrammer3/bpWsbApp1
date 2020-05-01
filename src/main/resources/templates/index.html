@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rss Sender</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sans Serif|Roboto" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<h1>Rss Sender</h1>
+
+<div class="main-panel">
+<form action="#" th:action="@{/}" th:object="${customer}" method="POST">
+    <p class="p"> email:   <input class="box" type="email" th:field="*{email}" name="email" placeholder=" type your email here ! " required>
+    </p>
+    <br>
+
+    <p class="p">RssUrl:   <input class="box" type="url" th:field="${canal.url}" name="url" placeholder=" type rss link here ! " required></p><br>
+    <input class="button" type="submit" value="add url to auto rss-sender" >
+
+    <input class="button" type="submit" name="sendtomail" value="send rss-es from this url to current mail">
+    <input class="button" th:object="${customer}" type="submit" name="loadrss" value="load rsses to debugger"></input>
+</form>
+</div>
+
+<hr>
+<div class="debugger">
+<h3>Mail Debugger</h3>
+<hr>
+    <table class="tableDebuger">
+        <tr th:each="feedMessage : ${feedMessages}">
+            <th><p  th:text="${feedMessage.title}">title</p></th>
+            <th><p class="rsslink"th:text="${feedMessage.link}">message</p></th>
+    </table>
+
+</div>
+</body>
+</html>

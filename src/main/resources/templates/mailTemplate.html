@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+<h3>Hello!</h3>
+<h4>     Your daily favourite rsses !! </h4>
+<hr>
+
+<tr th:each="message : ${message}">
+    <th><span th:text="${message.title}"> Title </span></th><br/>
+    <th><a th:href="${message.link}">>>> Go To Article <<<</a></th>
+    <hr>
+</tr>
+<br>
+</body>
+</html>

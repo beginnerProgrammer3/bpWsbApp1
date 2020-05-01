@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+    font-family: 'Roboto', Sans-serif;
+}
+
+
+.topic{
+    color: aquamarine;
+
+}
+
+.debugger{
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 20px;
+    border-style:solid ;
+    max-width: 80%;
+}
+
+.rsslink{
+    color: darkblue;
+}
+
