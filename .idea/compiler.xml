@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mailwithrsssender" target="11" />
+      <module name="mailwithrsssender" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
