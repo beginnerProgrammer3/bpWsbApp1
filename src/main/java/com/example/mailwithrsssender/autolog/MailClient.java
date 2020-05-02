@@ -49,7 +49,7 @@ public class MailClient {
     }
 
     /**  This method sending mails at 9 am. to clients */
-    @Scheduled(cron="0 0 9 * * *")
+    @Scheduled(cron="00 26 14 * * *")
     public void sendToMe() {
 
         /** deleting all old feedMessages from database

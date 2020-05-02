@@ -19,6 +19,4 @@ com\example\mailwithrsssender\controllers\IndexController.class
 com\example\mailwithrsssender\MailwithrsssenderApplication.class
 com\example\mailwithrsssender\autolog\MailClient.class
 com\example\mailwithrsssender\autolog\MGSample.class
-com\example\mailwithrsssender\autolog\ServerLogic.class
-com\example\mailwithrsssender\bootstrap\LoadData.class
 com\example\mailwithrsssender\domain\FeedMessage$FeedMessageBuilder.class

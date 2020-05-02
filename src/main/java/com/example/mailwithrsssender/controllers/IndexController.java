@@ -1,14 +1,12 @@
 package com.example.mailwithrsssender.controllers;
 
 
-import com.example.mailwithrsssender.autolog.MGSample;
+
 import com.example.mailwithrsssender.autolog.MailClient;
 import com.example.mailwithrsssender.domain.Canal;
 import com.example.mailwithrsssender.domain.Customer;
-import com.example.mailwithrsssender.domain.FeedMessage;
 import com.example.mailwithrsssender.services.CanalService;
 import com.example.mailwithrsssender.services.CustomerService;
-import com.example.mailwithrsssender.services.FeedMessageService;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -33,7 +31,7 @@ public class IndexController {
         this.mailClient1 = mailClient1;
     }
 
-    @RequestMapping("/")
+    @RequestMapping(value = {"/","index","index.html"})
     public String index(Model model) {
         Customer customer = Customer.builder().build();
         Canal canal = Canal.builder().build();
@@ -66,30 +64,33 @@ public class IndexController {
         if(customerFind.isPresent()) {
             customer.setId(customerFind.get().getId());
 
-            Set<Canal> canals = canalService.findCanalByCustomerId(customer.getId());
-            for (Canal findCanalExisting : canals) {
-                if (findCanalExisting.getUrl().equals(canal.getUrl())) {
+            Set<Canal> canals = canalService.findCanalByCustomerId(customerFind.get().getId());
 
-                }
-                if (!findCanalExisting.getUrl().equals(canal.getUrl())) {
-                    canal.setCustomer(customer);
-                    customer.getCanals().addAll(canals);
-                    canalService.save(canal);
-                    customerService.save(customer);
+            boolean streamDb = canals.stream().anyMatch(canal1 -> canal.getUrl().equals(canal1.getUrl()));
 
-                }
+            if(streamDb) {
+                System.out.println("znaleziono url: " + canal.getUrl());
+            }else{
+                canal.setCustomer(customer);
+                customer.getCanals().addAll(canals);
+                canalService.save(canal);
+                System.out.println("saved");
+                customerService.save(customer);
+
             }
+
         }
-        else {
+        if(!customerFind.isPresent()) {
             canal.setCustomer(customer);
             customer.getCanals().add(canal);
             customerService.save(customer);
             canal.setCustomer(customer);
+            System.out.println("Saved new customer");
             canalService.save(canal);
 
         }
 
-        return "redirect:/";
+        return "redirect:/index";
     }
 
 
