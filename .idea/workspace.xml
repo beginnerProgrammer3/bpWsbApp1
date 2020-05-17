@@ -38,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -147,7 +147,9 @@
       <workItem from="1588179322605" duration="8872000" />
       <workItem from="1588359630880" duration="121000" />
       <workItem from="1588359883796" duration="4296000" />
-      <workItem from="1588420803719" duration="5943000" />
+      <workItem from="1588420803719" duration="7687000" />
+      <workItem from="1588517303509" duration="229000" />
+      <workItem from="1589709623431" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="added project to github">
       <created>1583565248293</created>
@@ -224,38 +226,38 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="420" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1587844470247" />
-    <state width="1219" height="406" key="GridCell.Tab.0.bottom" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.0.bottom" timestamp="1588441031658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.0.center" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031658" />
+    <state width="975" height="406" key="GridCell.Tab.0.center" timestamp="1588441031658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.0.left" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031658" />
+    <state width="975" height="406" key="GridCell.Tab.0.left" timestamp="1588441031658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.0.right" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031658" />
+    <state width="975" height="406" key="GridCell.Tab.0.right" timestamp="1588441031658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.1.bottom" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031658" />
+    <state width="975" height="406" key="GridCell.Tab.1.bottom" timestamp="1588441031659">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.1.center" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031659" />
+    <state width="975" height="406" key="GridCell.Tab.1.center" timestamp="1588441031659">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.1.left" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031659" />
+    <state width="975" height="406" key="GridCell.Tab.1.left" timestamp="1588441031658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
-    <state width="1219" height="406" key="GridCell.Tab.1.right" timestamp="1588426784557">
+    <state width="975" height="406" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031658" />
+    <state width="975" height="406" key="GridCell.Tab.1.right" timestamp="1588441031659">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1219" height="406" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588426784557" />
+    <state width="975" height="406" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588441031659" />
     <state x="148" y="165" key="SettingsEditor" timestamp="1588098718551">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -276,10 +278,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="441" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587668332070" />
-    <state x="22" y="181" key="new project wizard" timestamp="1587913900159">
+    <state x="1" y="58" key="new project wizard" timestamp="1588441028885">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="22" y="181" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587913900159" />
+    <state x="1" y="58" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1588441028885" />
     <state x="360" y="287" key="refactoring.ChangeSignatureDialog" timestamp="1587800699379">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -288,5 +290,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="296" y="242" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1587909071708" />
+    <state x="310" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1589709730969">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="310" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589709730969" />
   </component>
 </project>

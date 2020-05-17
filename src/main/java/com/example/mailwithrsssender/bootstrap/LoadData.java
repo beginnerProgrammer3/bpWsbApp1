@@ -20,6 +20,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /** Test Data Loader
+ *
+ * used only for tests
  */
 //@Component
 //public class LoadData implements CommandLineRunner {

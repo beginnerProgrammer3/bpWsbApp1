@@ -1,13 +1,10 @@
 package com.example.mailwithrsssender.domain;
 
-import lombok.Builder;
-
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
-import java.math.BigDecimal;
 
 
 @MappedSuperclass

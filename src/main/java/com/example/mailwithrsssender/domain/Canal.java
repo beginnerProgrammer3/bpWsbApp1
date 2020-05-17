@@ -2,7 +2,7 @@ package com.example.mailwithrsssender.domain;
 
 import lombok.Builder;
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,7 +11,7 @@ import java.util.Set;
 @Table(name = "canals")
 public class Canal extends BaseEntity{
 
-//    @NotNull(message = "Name may not be null")
+
     private String url;
 
     @OneToMany(mappedBy = "canal", fetch = FetchType.EAGER)

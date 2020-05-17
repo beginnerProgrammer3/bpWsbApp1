@@ -18,6 +18,10 @@ public class MailContentBuilder {
     private TemplateEngine templateEngine;
 
     /** Content Builder method
+     *
+     * @param templateEngine
+     *
+     * @return creating template to send for client
      */
     @Autowired
     public MailContentBuilder(TemplateEngine templateEngine){

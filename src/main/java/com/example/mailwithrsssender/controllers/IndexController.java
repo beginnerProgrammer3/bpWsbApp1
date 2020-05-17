@@ -30,7 +30,9 @@ public class IndexController {
         this.canalService = canalService;
         this.mailClient1 = mailClient1;
     }
-
+/**
+ * @return index
+ * */
     @RequestMapping(value = {"/","index","index.html"})
     public String index(Model model) {
         Customer customer = Customer.builder().build();
@@ -39,12 +41,20 @@ public class IndexController {
         model.addAttribute("customer", customer);
         return "index";
     }
+
+
+/**
+ * method sending mail with newest rsses to current customer in form
+ * */
     @RequestMapping (value = "/", params = "sendtomail", method = RequestMethod.POST)
     public String sendToOneMail(Customer customer,Canal canal) throws UnirestException {
         mailClient1.getRssForOneMail(customer.getEmail(),canal.getUrl());
         return "index";
     }
 
+/**
+ * method load rsses to "debug view" it also checking is the rss url correct
+ * */
     @RequestMapping (value = "/", params = "loadrss", method = RequestMethod.POST)
     public String loadRssToDebugger(Customer customer,Canal canal, Model model) throws UnirestException {
         model.addAttribute("feedMessages",mailClient1.getFeedMessageAndDebug(canal.getUrl()));
@@ -52,7 +62,14 @@ public class IndexController {
     }
 
 
-
+/**
+ * creating and adding new customer to database if customer exist
+ * program checking existing canals and if they not in db added them
+ *
+ *
+ * @param customer: creating new customer from form on index site
+ * @param canal: adding new canal from form on index site
+ * */
     @PostMapping("/")
     public String processCreationForm(@Valid Customer customer, @Valid Canal canal) {
 

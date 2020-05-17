@@ -31,7 +31,10 @@ public class RssClient {
     }
 
 
-
+/**
+ *
+ * get Rss from url
+ * */
     public static void getRss(Set<FeedMessage> messages, Canal canal) {
 
 
@@ -43,7 +46,7 @@ public class RssClient {
                 System.out.println(feed1.getTitle());
                 for (SyndEntry entry : feed1.getEntries()) {
                     messages.add(new FeedMessage(entry.getLink(),entry.getTitle(),canal));
-//                    System.out.println("*Updated*");
+
                 }
             }
         }  catch (Exception e) {

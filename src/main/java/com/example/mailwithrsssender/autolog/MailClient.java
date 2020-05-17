@@ -10,8 +10,7 @@ import com.example.mailwithrsssender.repositories.FeedMessageRepository;
 
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import org.springframework.mail.MailException;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -98,6 +97,9 @@ public class MailClient {
         }
     /**
      * preparing email context to send in mail
+     *
+     * @param recipient
+     * @param messagesB list of messages to send
      */
     public void prepareAndSendByGmail(String recipient, List<FeedMessage> messagesB) {
         MimeMessagePreparator messagePreparator = mimeMessage -> {
@@ -115,21 +117,9 @@ public class MailClient {
     }
 
 
-//  Old Mailgun Implementation
-
-//    public void prepareAndSend(String recipient, List<FeedMessage> messages) throws UnirestException {
-//        StringBuilder messagesMailbox = new StringBuilder();
-//
-//        for(FeedMessage msg :messages){
-//            messagesMailbox.append(msg.getTitle() +" "+
-//                    msg.getLink()).append("\n").append(" ");
-//        }
-//
-//        sendSimpleMessage(recipient,messagesMailbox.toString());
-//
-//    }
-
     /** method getting and sending email with rss-es to one client
+     * @param mailClient
+     * @param canalRss : canal to get rsses
      */
     public void getRssForOneMail(String mailClient,String canalRss) throws UnirestException {
         List<FeedMessage> set =new ArrayList<>();
@@ -153,6 +143,8 @@ public class MailClient {
     }
 
     /** "mail debugger" on site
+     *
+     * @param canalRss get canal url
      */
     public List<FeedMessage> getFeedMessageAndDebug(String canalRss) throws UnirestException {
         List<FeedMessage> feedMessages =new ArrayList<>();
